@@ -27,7 +27,7 @@ map Q gq
 " Find more examples here: https://jb.gg/share-ideavimrc
 syntax on
 set number
-set relativenumber
+"set relativenumber
 set cursorline
 set wrap
 set showcmd
@@ -40,10 +40,6 @@ set ideajoin
 
 inoremap jk <Esc>
 nnoremap ,s <Esc>:source<Space>~/.ideavimrc<CR>
-nnoremap H 7h
-nnoremap L 7l
-nnoremap K 5k
-nnoremap J 5j
 nnoremap ,h H
 nnoremap ,l L
 nnoremap ,p o<ESC>p
